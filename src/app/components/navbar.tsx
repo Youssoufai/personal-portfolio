@@ -1,12 +1,14 @@
 const Navbar = () => {
     return (
         <>
-            <nav>
+            <nav
+                className="flex justify-between items-center text-text-color"
+            >
                 <div>
-                    Cognitix Dev
+                    COGNITIX DEV
                 </div>
                 <div>
-                    <ul>
+                    <ul className="flex gap-4">
                         <li>Work</li>
                         <li>About</li>
                         <li>Contact</li>
